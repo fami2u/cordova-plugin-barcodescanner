@@ -24,6 +24,4 @@
 
 注：本插件中用到了block回调函数，在ARC开发下使用__weak 修饰，避免循环引用。请确保一下设置无误。否则会运行失败。
 
-![price](/Users/fami_Lbb/Desktop/87A5E5B5-21E4-4409-822F-BAFBA3C7926E.png)
-
 xcode -> Build Settings -> Apple LLVM 7.1-Language - Objective C -> Weak Refrernces in Manual Retain Release  设置为YES
